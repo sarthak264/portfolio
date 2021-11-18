@@ -1,0 +1,41 @@
+section.contact {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+section.contact .number-heading {
+  margin-bottom: 1rem;
+  font-family: var(--sf-mono);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--bright-green);
+}
+section.contact .title {
+  margin-bottom: 1rem;
+  font-family: var(--calibre);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+section.contact .message {
+  margin-bottom: 3rem;
+  font-family: var(--calibre);
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  section.contact {
+    padding: 6.25rem 0;
+    margin-bottom: 6.25rem;
+  }
+  section.contact .message {
+    font-size: 1.4rem;
+  }
+  section.contact .title {
+    font-size: 3.75rem;
+  }
+}

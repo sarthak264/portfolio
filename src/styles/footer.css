@@ -1,0 +1,32 @@
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-container svg {
+  width: 1.5rem;
+  margin: 0rem 1rem;
+  margin-bottom: 2rem;
+  fill: var(--light-gray);
+  transition: all 0.2s ease-in-out;
+}
+.social-container a:hover svg {
+  fill: var(--bright-green);
+}
+.footer p {
+  font-family: var(--sf-mono);
+  font-size: 0.8rem;
+  line-height: 1.75;
+  color: var(--light-gray);
+  text-align: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .social-container {
+    display: none;
+  }
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
