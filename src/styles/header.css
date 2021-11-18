@@ -1,0 +1,71 @@
+.header {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  font-family: var(--calibre);
+}
+.intro {
+  margin-left: 0.25rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--sf-mono);
+  font-size: 1rem;
+  color: var(--bright-green);
+}
+.name,
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.name {
+  color: var(--primary-text);
+}
+.subtitle {
+  color: var(--secondary-text);
+  line-height: 1;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+}
+.description {
+  max-width: 590px;
+  margin-bottom: 3rem;
+}
+.cta-btn {
+  padding: 1.25rem 1.75rem;
+  background-color: transparent;
+  font-family: var(--sf-mono);
+  color: var(--bright-green);
+  border: 1px solid var(--bright-green);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.cta-btn:hover,
+.cta-btn:focus {
+  background-color: #64ffda1a;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    height: 100vh;
+  }
+  .name,
+  .subtitle {
+    font-size: 3.25rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .email-container {
+    display: block;
+  }
+  .name,
+  .subtitle {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .name,
+  .subtitle {
+    font-size: 5rem;
+  }
+}
