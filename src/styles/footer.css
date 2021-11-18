@@ -1,3 +1,6 @@
+.footer{
+  padding-bottom: 1.5rem;
+}
 .social-container {
   display: flex;
   align-items: center;
