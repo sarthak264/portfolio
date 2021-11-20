@@ -8,7 +8,7 @@
 .about-me p:first-of-type {
   margin-top: 2rem;
 }
-.tech-stack {
+.about-me .tech-stack {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -19,18 +19,18 @@
   justify-content: center;
   gap: 3rem;
 }
-.tech-stack img {
+.about-me .tech-stack img {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .tech-stack {
+  .about-me .tech-stack {
     max-width: none;
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
   }
 }
 @media screen and (min-width: 991px) {
-  .tech-stack {
+  .about-me .tech-stack {
     gap: 2rem;
   }
 }

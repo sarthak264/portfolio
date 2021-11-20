@@ -4,34 +4,34 @@
   align-items: center;
   font-family: var(--calibre);
 }
-.intro {
+.header .intro {
   margin-left: 0.25rem;
   margin-bottom: 1.5rem;
   font-family: var(--sf-mono);
   font-size: 1rem;
   color: var(--bright-green);
 }
-.name,
-.subtitle {
+.header .name,
+.header .subtitle {
   font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 1;
 }
-.name {
+.header .name {
   color: var(--primary-text);
 }
-.subtitle {
+.header .subtitle {
   color: var(--secondary-text);
   line-height: 1;
   margin-bottom: 1rem;
   margin-top: 0.25rem;
 }
-.description {
+.header .description {
   max-width: 590px;
   margin-bottom: 3rem;
 }
-.cta-btn {
+.header .cta-btn {
   padding: 1.25rem 1.75rem;
   background-color: transparent;
   font-family: var(--sf-mono);
@@ -41,31 +41,31 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-.cta-btn:hover,
-.cta-btn:focus {
+.header .cta-btn:hover,
+.header .cta-btn:focus {
   background-color: #64ffda1a;
 }
 @media screen and (min-width: 480px) {
   .header {
     height: 100vh;
   }
-  .name,
-  .subtitle {
+  .header .name,
+  .header .subtitle {
     font-size: 3.25rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .email-container {
+  .header .email-container {
     display: block;
   }
-  .name,
-  .subtitle {
+  .header .name,
+  .header .subtitle {
     font-size: 4rem;
   }
 }
 @media screen and (min-width: 991px) {
-  .name,
-  .subtitle {
+  .header .name,
+  .header .subtitle {
     font-size: 5rem;
   }
 }
