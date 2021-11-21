@@ -62,19 +62,17 @@
   color: var(--light-gray);
 }
 .other-projects .tech-stack {
-  font-family: var(--sf-mono);
-}
-.other-projects .tech-stack {
   margin-top: 1.5rem;
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
+  font-family: var(--sf-mono);
 }
 .other-projects .tech-stack .lang {
-  /* margin-left: 1rem; */
   font-size: 0.8rem;
   color: var(--secondary-text);
 }
+
 /* Media Queries */
 @media screen and (min-width: 680px) {
   .other-projects {
@@ -82,7 +80,7 @@
     column-gap: 1rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .other-projects {
     column-gap: 1rem;
   }
