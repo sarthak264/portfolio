@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <h1 className="title">
-        <span className="number">01.</span>
+        <span className="number">02.</span>
         <span className="main"> Some things I've built</span>
       </h1>
       {FeaturedProjects.map((project, index) => {
