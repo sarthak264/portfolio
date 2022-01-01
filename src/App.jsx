@@ -6,10 +6,12 @@ import About from "./components/About";
 import Header from "./components/Header";
 import OtherProject from "./components/OtherProject";
 import Projects from "./components/Projects";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="page">
+      <Navbar />
       <Header />
       <About />
       <Projects />
