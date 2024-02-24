@@ -6,6 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const navItems = [
     { title: 'About', id: 'about_me' },
+    { title: 'Experience', id: 'experience' },
     { title: 'Projects', id: 'projects' },
     { title: 'Contact', id: 'contact' },
   ];
@@ -16,6 +17,13 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
+      <ScrollInto selector='#header'>
+        <img
+          src='/assets/images/logo.png'
+          alt='logo'
+          className='nav-logo-mobile'
+        />
+      </ScrollInto>
       <div className='demo'>
         <div className='menu-icon'>
           <input
@@ -34,6 +42,13 @@ const Navbar = () => {
       </div>
       <div className={`${toggle ? 'menu show' : 'menu'} menu-container`}>
         <div className='container'>
+          <ScrollInto selector='#header'>
+            <img
+              src='/assets/images/logo.png'
+              alt='logo'
+              className='nav-logo'
+            />
+          </ScrollInto>
           <ul className='list'>
             {navItems.map((item, i) => (
               <ScrollInto

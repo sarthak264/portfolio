@@ -5,13 +5,19 @@ const Projects = () => {
   return (
     <section className='projects' id='projects'>
       <h1 className='title'>
-        <span className='number'>02.</span>
+        <span className='number'>03.</span>
         <span className='main'> Some things I've built</span>
       </h1>
       {FeaturedProjects.map((project, index) => {
         return (
           <div className='card' key={index}>
-            <img src={project.image} alt='project-img' className='screenshot' />
+            <div className='ss-wrapper'>
+              <img
+                src={project.image}
+                alt='project-img'
+                className='screenshot'
+              />
+            </div>
             <div className='main'>
               <h1 className='card-title'>{project.title}</h1>
               <p className='card-description'>{project.description}</p>

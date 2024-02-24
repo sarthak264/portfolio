@@ -1,0 +1,135 @@
+.work {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.work .title {
+    margin-bottom: 3rem;
+}
+
+.work-container {
+    display: flex;
+    gap: 30px;
+}
+
+.work-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid #233554;
+    color: var(--secondary-text);
+    font-family: var(--sf-mono);
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.work-btn:hover {
+    color: var(--bright-green);
+    background-color: #112240;
+}
+
+.work-btn.selected {
+    color: var(--bright-green);
+    border-left-color: var(--bright-green);
+}
+
+.absolute-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.work-wrapper {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: fit-content;
+    height: -moz-fit-content;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.work-wrapper.selected {
+    opacity: 1;
+}
+
+.work-wrapper h3 {
+    font-family: var(--calibre);
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: var(--primary-text);
+    margin-bottom: 5px;
+}
+
+.work-wrapper h3 span.green {
+    color: var(--bright-green);
+}
+
+.work-wrapper .time {
+    font-family: var(--sf-mono);
+    font-size: 17px;
+    color: var(--light-gray);
+    margin-bottom: 25px;
+}
+
+.work-wrapper li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-family: var(--calibre);
+    font-size: 20px;
+    color: var(--secondary-text);
+    list-style: none;
+}
+
+.work-wrapper li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--bright-green);
+}
+
+@media (max-width: 767px) {
+    .work .title {
+        margin-bottom: 2rem;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .btns-wrapper {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .work-btn {
+        border-left: none;
+        border-bottom: 2px solid #233554;
+        justify-content: center;
+    }
+
+    .work-btn:hover {
+        color: var(--bright-green);
+        background-color: #112240;
+    }
+
+    .work-btn.selected {
+        color: var(--bright-green);
+        border-left-color: none;
+        border-bottom-color: var(--bright-green);
+    }
+}
+
+@media (max-width: 480px) {
+    .work-wrapper li {
+        font-size: 18px;
+    }
+}
