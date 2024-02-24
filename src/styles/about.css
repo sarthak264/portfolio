@@ -2,12 +2,15 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
 .about-me p {
   margin-bottom: 1rem;
 }
+
 .about-me p:first-of-type {
   margin-top: 2rem;
 }
+
 .about-me .tech-stack {
   width: 100%;
   max-width: 400px;
@@ -19,9 +22,11 @@
   justify-content: center;
   gap: 3rem;
 }
+
 .about-me .tech-stack img {
   width: 100%;
 }
+
 @media screen and (min-width: 769px) {
   .about-me .tech-stack {
     max-width: none;
@@ -29,6 +34,7 @@
     gap: 1rem;
   }
 }
+
 @media screen and (min-width: 991px) {
   .about-me .tech-stack {
     gap: 2rem;

@@ -1,11 +1,11 @@
-import "../styles/about.css";
+import '../styles/about.css';
 
 const About = () => {
   return (
-    <section className="about-me">
-      <h1 className="title">
-        <span className="number">01.</span>
-        <span className="main"> About Me</span>
+    <section className='about-me' id='about_me'>
+      <h1 className='title'>
+        <span className='number'>01.</span>
+        <span className='main'> About Me</span>
       </h1>
       <p>
         Hello! My name is Sarthak and I enjoy creating things that live on the
@@ -21,36 +21,36 @@ const About = () => {
         of clients.
       </p>
       <p>Here are a few technologies I’ve been working with recently:</p>
-      <div className="tech-stack">
+      <div className='tech-stack'>
         <img
-          src="assets/images/html.png"
-          alt="html logo"
-          className="language-icon"
+          src='assets/images/html.png'
+          alt='html logo'
+          className='language-icon'
         />
         <img
-          src="assets/images/css.png"
-          alt="css logo"
-          className="language-icon"
+          src='assets/images/css.png'
+          alt='css logo'
+          className='language-icon'
         />
         <img
-          src="assets/images/sass.png"
-          alt="sass logo"
-          className="language-icon"
+          src='assets/images/sass.png'
+          alt='sass logo'
+          className='language-icon'
         />
         <img
-          src="assets/images/bootstrap.svg"
-          alt="bootstrap logo"
-          className="language-icon"
+          src='assets/images/bootstrap.svg'
+          alt='bootstrap logo'
+          className='language-icon'
         />
         <img
-          src="assets/images/js.png"
-          alt="js logo"
-          className="language-icon"
+          src='assets/images/js.png'
+          alt='js logo'
+          className='language-icon'
         />
         <img
-          src="assets/images/react.png"
-          alt="react logo"
-          className="language-icon"
+          src='assets/images/react.png'
+          alt='react logo'
+          className='language-icon'
         />
       </div>
     </section>
