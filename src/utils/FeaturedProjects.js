@@ -7,7 +7,7 @@ const FeaturedProjects = [
     github: 'https://github.com/sarthak264/flowboard',
     link: 'https://flowboard-73c27.web.app/',
     image: null,
-    video: './assets/recordings/flowboard recording.webm',
+    video: './assets/recordings/flowboard recording.mp4',
   },
   {
     title: 'CSS Gradient Lab',

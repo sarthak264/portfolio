@@ -24,6 +24,7 @@ const Projects = () => {
                   className='recording'
                   autoPlay
                   loop
+                  muted
                 ></video>
               )}
             </div>
