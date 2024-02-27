@@ -12,11 +12,20 @@ const Projects = () => {
         return (
           <div className='card' key={index}>
             <div className='ss-wrapper'>
-              <img
-                src={project.image}
-                alt='project-img'
-                className='screenshot'
-              />
+              {project.image !== null ? (
+                <img
+                  src={project.image}
+                  alt='project-img'
+                  className='screenshot'
+                />
+              ) : (
+                <video
+                  src={project.video}
+                  className='recording'
+                  autoPlay
+                  loop
+                ></video>
+              )}
             </div>
             <div className='main'>
               <h1 className='card-title'>{project.title}</h1>

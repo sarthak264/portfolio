@@ -8,9 +8,8 @@ const Contact = () => {
         <span className='main'>Get In Touch</span>
       </h1>
       <p className='message'>
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+        I'm open to new opportunities right now! Feel free to reach out if you
+        have any questions or interesting ideas.
       </p>
       <a href='mailto:sarthaksharm372@gmail.com'>
         <button className='big-btn contact-btn'>Say Hello</button>

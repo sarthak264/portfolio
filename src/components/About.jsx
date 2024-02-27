@@ -8,17 +8,17 @@ const About = () => {
         <span className='main'> About Me</span>
       </h1>
       <p>
-        Hello! My name is Sarthak and I enjoy creating things that live on the
-        internet. My interest in web development started back in 2012 when I
-        decided to try editing custom Tumblr themes — turns out hacking together
-        a custom reblog button taught me a lot about HTML & CSS!
+        I'm a passionate front-end developer driven by the desire to craft
+        exceptional digital experiences that are both engaging and accessible.
+        My journey began with a deep fascination for transforming design
+        concepts into functional and user-centric realities. This passion led me
+        to hone my expertise in HTML, CSS, Javascript and React.js, allowing me
+        to translate ideas into dynamic and interactive user interfaces.
       </p>
       <p>
-        Fast-forward to today, and I’ve had the privilege of working at an
-        advertising agency, a start-up, a huge corporation, and a student-led
-        design studio. My main focus these days is building accessible,
-        inclusive products and digital experiences at Upstatement for a variety
-        of clients.
+        Throughout my academic journey and professional experiences at Growth99
+        and Rapca Infotech Pvt. Ltd., I've consistently pursued opportunities to
+        combine my technical skills with my design sensibilities.
       </p>
       <p>Here are a few technologies I’ve been working with recently:</p>
       <div className='tech-stack'>
@@ -33,16 +33,6 @@ const About = () => {
           className='language-icon'
         />
         <img
-          src='assets/images/sass.png'
-          alt='sass logo'
-          className='language-icon'
-        />
-        <img
-          src='assets/images/bootstrap.svg'
-          alt='bootstrap logo'
-          className='language-icon'
-        />
-        <img
           src='assets/images/js.png'
           alt='js logo'
           className='language-icon'
@@ -50,6 +40,16 @@ const About = () => {
         <img
           src='assets/images/react.png'
           alt='react logo'
+          className='language-icon'
+        />
+        <img
+          src='assets/images/mui.png'
+          alt='mui logo'
+          className='language-icon'
+        />
+        <img
+          src='assets/images/bootstrap.svg'
+          alt='bootstrap logo'
           className='language-icon'
         />
       </div>

@@ -52,6 +52,12 @@
   display: block;
 }
 
+.projects .card .recording {
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+}
+
 .projects .card .tech-stack {
   margin-top: 0.75rem;
   display: flex;
